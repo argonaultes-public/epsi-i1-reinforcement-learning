@@ -14,7 +14,7 @@ Q =
 alpha = 0.1 # taux d'apprentissage
 gamma = 0.9 # rapprocher gamma de 1 si nous avons beaucoup d'états, sinon, le rapprocher de 0
 epsilon = 0.2 # exploration probability
-num_episodes = 5000
+num_episodes = 30
 
 # Créer une fonction dont l'objectif est de choisir une action en suivant la stratégie epsilon-greedy
 # choisir une valeur aléatoire comprise entre 0 et epsilon
@@ -25,7 +25,7 @@ def choose_action(state):
     pass
 
 # créer une fonction qui va renvoyer l'état attendu pour une action donné
-# créer un comportement par défaut qui choist un état au hasard si l'action ne correspond à aucune prévue
+# créer un comportement par défaut qui choisit un état au hasard si l'action ne correspond à aucune prévue
 # renvoyer un tuple prochain_état, récompense
 def step(state, action):
     pass
